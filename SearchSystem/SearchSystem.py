@@ -26,7 +26,7 @@ class Node_vector:
 class List_Creat:
     #负责构建倒排索引表
     def __init__(self):
-        self.path='./已分词数据'
+        self.path='./文本数据'
 
     def change_path(self,string_path):
         self.path = string_path
